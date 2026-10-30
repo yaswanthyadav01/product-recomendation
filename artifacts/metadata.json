@@ -1,0 +1,11 @@
+{
+  "rows_used": 100000,
+  "users": 89938,
+  "products": 6918,
+  "best_clustering_model": "K-Means",
+  "n_clusters": 5,
+  "rating_scale": [
+    1.0,
+    5.0
+  ]
+}
