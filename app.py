@@ -3,7 +3,7 @@ from __future__ import annotations
 import sys
 import os
 import json
-sys.path.append(os.path.join(os.path.dirname(_file_), 'src'))
+sys.path.append(os.path.join(os.getcwd(), 'src'))
 from pathlib import Path
 import joblib
 import numpy as np
