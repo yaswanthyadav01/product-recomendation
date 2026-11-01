@@ -11,7 +11,7 @@ from sklearn.metrics import calinski_harabasz_score, davies_bouldin_score, silho
 from sklearn.mixture import GaussianMixture
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
-from src.models import recommendations_for_user, similar_products
+
 FEATURE_COLUMNS = ["rating_count", "mean_rating", "rating_std", "unique_products", "high_rating_share", "unique_product_ratio"]
 
 
