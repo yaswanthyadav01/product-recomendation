@@ -3,6 +3,7 @@ from __future__ import annotations
 import sys
 import os
 import json
+sys.path.append(os.path.join(os.path.dirname(_file_), 'src'))
 from pathlib import Path
 import joblib
 import numpy as np
@@ -10,7 +11,6 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from scipy.sparse import load_npz
-
 from models import recommendations_for_user, similar_products
 
 ARTIFACTS = Path("artifacts")
