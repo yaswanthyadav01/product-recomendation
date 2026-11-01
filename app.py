@@ -64,3 +64,4 @@ with tab3:
         plot_data = art["features"].merge(art["clusters"], on="user_id")
         fig = px.scatter(plot_data, x="rating_count", y="mean_rating", color="cluster_x", hover_data=["unique_products", "high_rating_share"], log_x=True)
         st.plotly_chart(fig, use_container_width=True)
+        # update
