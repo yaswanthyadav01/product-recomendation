@@ -11,7 +11,7 @@ import plotly.express as px
 import streamlit as st
 from scipy.sparse import load_npz
 
-from src.models import recommendations_for_user, similar_products
+from models import recommendations_for_user, similar_products
 
 ARTIFACTS = Path("artifacts")
 st.set_page_config(page_title="Product Recommendation System", page_icon="⭐", layout="wide")
